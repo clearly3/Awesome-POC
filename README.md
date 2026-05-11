@@ -316,6 +316,9 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Crawlab file 任意文件读取漏洞
   * Crawlab users 任意用户添加漏洞
   * Dapr Dashboard configurations 未授权访问漏洞 CVE-2022-38817
+  * DataEase H2 JDBC 远程命令执行漏洞 CVE-2025-32966
+  * DataEase JWT 认证绕过漏洞 CVE-2025-49001
+  * DataEase 白名单路径穿越认证绕过漏洞 CVE-2024-56511
   * Dogtag PKI XML实体注入漏洞 CVE-2022-2414
   * Dolibarr edit.php 远程命令执行漏洞 CVE-2022-40871
   * E-message 越权访问漏洞
@@ -615,6 +618,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Apache Kylin config 未授权配置泄露 CVE-2020-13937
   * Apache Kylin CubeService.java 命令注入漏洞 CVE-2020-1956
   * Apache Kylin DiagnosisController.java 命令注入漏洞 CVE-2020-13925
+  * Apache Linkis MySQL JDBC 数据源反序列化远程代码执行漏洞 CVE-2022-44645
   * Apache Log4j Server 反序列化命令执行漏洞 CVE-2017-5645
   * Apache Log4j2 lookup JNDI 注入漏洞 CVE-2021-44228
   * Apache Mod_jk 访问控制权限绕过 CVE-2018-11759
@@ -667,6 +671,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Apache Tomcat AJP 文件包含漏洞 CVE-2020-1938
   * Apache Tomcat PUT 方法任意写文件漏洞 CVE-2017-12615
   * Apache Tomcat RCE Via JSP Upload Bypass CVE 2017 12617
+  * Apache Tomcat Tribes EncryptInterceptor 绕过远程代码执行漏洞 CVE-2026-34486
   * Apache Tomcat WebSocket 拒绝服务漏洞 CVE-2020-13935
   * Apache Tomcat 信息泄露漏洞 CVE-2021-24122
   * Apache Tomcat 远程代码执行漏洞 CVE-2025-24813
@@ -800,6 +805,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Ollama 文件存在性泄露漏洞 CVE-2024-39722
   * Ollama 未授权访问漏洞 CNVD-2025-04094
   * Ollama 目录遍历致代码执行漏洞 CVE-2024-37032
+  * OpenClaw 跨站 WebSocket 劫持漏洞 CVE-2026-25253
   * OpenCode 远程代码执行漏洞 CVE-2026-22812
 - 其他漏洞
 
@@ -885,14 +891,17 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
   * Spring Messaging 远程命令执行漏洞 CVE-2018-1270
   * Spring Security OAuth2 远程命令执行漏洞 CVE-2016-4977
   * Spring WebFlow 远程代码执行漏洞 CVE-2017-4971
+  * Spring 框架因 Jetty URI 解析不一致导致的路径穿越漏洞 CVE-2025-41242
   * ThinkPHP 2.x 任意代码执行漏洞
   * ThinkPHP 命令执行漏洞 CNVD-2022-86535
   * ThinkPHP 多语言本地文件包含漏洞
   * ThinkPHP5 5.0.22 5.1.29 远程代码执行漏洞
   * ThinkPHP5 5.0.23 远程代码执行漏洞
   * ThinkPHP5 SQL注入漏洞 && 敏感信息泄露
+  * Vite 开发服务器 WebSocket 任意文件读取漏洞 CVE-2026-39363
   * Vite 开发服务器任意文件读取漏洞 CNVD-2022-44615
   * Vite 开发服务器任意文件读取漏洞绕过 CVE-2025-30208
+  * Vite 开发服务器通过 Hash 字符绕过任意文件读取漏洞 CVE-2025-32395
   * XStream SSRF 反序列化漏洞 CVE-2020-26258
   * XStream 任意文件删除 反序列化漏洞 CVE-2020-26259
   * XStream 反序列化命令执行漏洞 CVE-2021-21351
@@ -921,8 +930,10 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
 - 操作系统漏洞
 
   * GNU InetUtils telnetd 参数注入认证绕过漏洞 CVE-2026-24061
+  * Linux Copy Fail 本地提权漏洞 CVE-2026-31431
   * Linux DirtyPipe 权限提升漏洞 CVE-2022-0847
   * Linux eBPF 权限提升漏洞 CVE-2022-23222
+  * Linux kernel xfrm-ESP Dirty Frag 本地提权漏洞 CVE-2026-43284
   * Linux kernel 权限提升漏洞 CVE-2021-3493
   * Linux openvswitch 权限提升漏洞 CVE-2022-2639
   * Linux Polkit 权限提升漏洞 CVE-2021-4034
